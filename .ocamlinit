@@ -1,0 +1,11 @@
+#directory "_build";;
+#load "lexer.cmo";;
+#load "parser.cmo";;
+#load "errors.cmo";;
+#load "collect.cmo";;
+#load "unify.cmo";;
+#load "eval.cmo";;
+#load "main.cmo";;
+#install_printer Collect.pp_typevar;;
+open Ast;;
+open Main;;
